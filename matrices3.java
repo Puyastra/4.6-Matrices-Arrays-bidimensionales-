@@ -19,9 +19,17 @@ public class matrices3 {
             for(int columnas = 0; columnas <M;columnas++){
                 if (matriz[filas][columnas] > 0) {
                     masQue0++;
-                } else if (matriz) {
-                    
+                } else if (matriz[filas][columnas] < 0) {
+                    menosQue0++;
+                } else if (matriz[filas][columnas] == 0) {
+                    igualQue0++;
                 }
             }
         }
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Valores mayores que 0: " + masQue0);
+        System.out.println("Valores menores que 0: " + menosQue0);
+        System.out.println("Valores iguales a 0: " + igualQue0);
+    }
 }
