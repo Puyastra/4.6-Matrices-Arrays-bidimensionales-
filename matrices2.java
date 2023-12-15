@@ -1,3 +1,9 @@
+/**Ejercicio con el objetivo de crear un programa que cree una matriz de 10x10
+* e introduzca los valores de las tablas de
+* multiplicar del 1 al 10
+*
+*@author Enrique García Herrera
+*/
 public class matrices2 {
     public static void main(String[] args) {
             int[][] matriz = new int[10][10];
